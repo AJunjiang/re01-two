@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>AJunj-文档</title>
+		<style>
+			body{
+				margin: 0;
+			}
+			
+		</style>
+	</head>
+	<body>
+		
+		<div style="
+			background-color: #f1f1f1;
+			text-align: center;
+			padding: 40px;
+		">
+			<img src="https://kangwenchang.com/logo.png" alt="AJunj" width="80px" height="80px">
+		</div>
+		<div style="
+			max-width: 700px;
+			margin:30px auto;
+			padding: 15px;
+			line-height: 1.7;
+			color: ;
+			background-color: #f1f1f1;
+		">
+			<h2>开发导航栏</h2>
+			<h3>1、底部导航栏</h3>
+			<p>components 文件夹下，创建 NavBar.vue 组件</p>
+			<p>NavBar.vue</p>
+			<ul>
+				<li>详细内容请看代码和注释</li>
+				<li><a href="https://vant-contrib.gitee.io/vant/#/zh-CN/tabbar">van-tabbar-item 为标签栏</a></li>
+			</ul>
+			<hr>
+			<h2>Pagination 分页</h2>
+			<h3>介绍</h3>
+			<p>数据量过多时，采用分页的形式将数据分隔，每次只加载一个页面。</p>
+			<br>
+			<h3>引入</h3>
+			<p>通过以下方式来全局注册组件，更多注册方式请参考组件<a href="https://vant-contrib.gitee.io/vant/#/zh-CN/advanced-usage#zu-jian-zhu-ce">注册组件</a>。</p>
+			<p>import { createApp } from 'vue';</p>
+			<p>import { Pagination } from 'vant';</p>
+			<p>const app = createApp();</p>
+			<p>app.use(Pagination);</p>
+		
+			<hr>
+			<h2>Tabbar 标签栏</h2>
+			<h3>介绍</h3>
+			<p>底部导航栏，用于在不同页面之间进行切换。</p>
+			<br>
+			<h3>引入</h3>
+			<p>通过以下方式来全局注册组件，更多注册方式请参考组件<a href="https://vant-contrib.gitee.io/vant/#/zh-CN/advanced-usage#zu-jian-zhu-ce">注册组件</a>。</p>
+			<p>import { createApp } from 'vue';</p>
+			<p>import { Tabbar, TabbarItem } from 'vant';</p>
+			<p>const app = createApp();</p>
+			<p>app.use(Tabbar);</p>
+			<p>app.use(TabbarItem);</p>
+			<hr>
+			<h2>TreeSelect 分类选择</h2>
+			<h3>介绍</h3>
+			<p>用于从一组相关联的数据集合中进行选择。</p>
+			<br>
+			<h3>引入</h3>
+			<p>通过以下方式来全局注册组件，更多注册方式请参考组件<a href="https://vant-contrib.gitee.io/vant/#/zh-CN/advanced-usage#zu-jian-zhu-ce">注册组件</a>。</p>
+			<p>import { createApp } from 'vue';</p>
+			<p>import { TreeSelect  } from 'vant';</p>
+			<p>const app = createApp();</p>
+			<p>app.use(TreeSelect);</p>
+			<hr>
+			<h2>IndexBar 索引栏</h2>
+			<h3>介绍</h3>
+			<p>用于列表的索引分类显示和快速定位。</p>
+			<br>
+			<h3>引入</h3>
+			<p>通过以下方式来全局注册组件，更多注册方式请参考组件<a href="https://vant-contrib.gitee.io/vant/#/zh-CN/advanced-usage#zu-jian-zhu-ce">注册组件</a>。</p>
+			<p>import { createApp } from 'vue';</p>
+			<p>import { IndexBar, IndexAnchor } from 'vant';</p>
+			<p>const app = createApp();</p>
+			<p>app.use(IndexBar);</p>
+			<p>app.use(IndexAnchor);</p>
+		</div>
+		
+	</body>
+</html>
